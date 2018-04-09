@@ -5,5 +5,7 @@
 - hashing on less classes
   - solution change a module on postCss [post on github](https://github.com/parcel-bundler/parcel/issues/566)
 
-### Related tutorials
+### Related tutorials and Resources
 [Getting Started With Cloud Firestore](https://www.youtube.com/watch?v=2Vf1D-rUMwE)
+[emoji pedia 📚](https://emojipedia.org/)
+[Convert-HTML-string-to-DOM-element](http://krasimirtsonev.com/blog/article/Convert-HTML-string-to-DOM-element)

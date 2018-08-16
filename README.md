@@ -1,3 +1,12 @@
+# How much to day
+
+###Prerequisit
+- Node
+- npm
+- [parceljs](https://parceljs.org/)
+  ```bash
+  npm install -g parcel-bundler
+  ```
 
 ### Trubles finded on work time
 - import on js

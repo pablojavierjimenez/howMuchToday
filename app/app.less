@@ -4,23 +4,93 @@
  */
  @import './styles/globals.less';
 
+
 body {
-  //background-color: @color_black;
   color: @color_green;
 }
 
-span{
-  .material_btn();
-  background-color: @color_red;
-  margin-left: -5px;
-  margin-bottom: -1px;
-  box-shadow: initial;
+#hmt_header {
+  display: flex;
 }
-input {
-  margin: 0;
-  padding: .75vmin 3vmin;
+#hmt_brandLogo {
+  padding: 1vmin .5vw;
+  color: #fff;
+  background-color: #000;
+  width: 90vw;
+}
+#hmt_menuButton {
+  width: 13vw;
+  height: 13vw;
+  background: hsl(109, 57%, 72%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: .3vh .5vh;
+}
+#hmt_menuButton__hambuerger {
+  background-color: #000;
+  height: calc(13vw/12);
+  border-radius: .5vh;
 }
 
-.m_btn {
-  .material_btn();
+main#main {
+  padding-top: 2vh;
+}
+
+.hmt_button_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#saveValue {
+  background-color: @color_blue;
+  border-color: @color_blue - #212121;
+}
+
+#headerType {
+  text-transform: capitalize;
+}
+
+#amount__container {
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    padding-right: 1vmin;
+    font-weight: bold;
+    margin-left: -6vw;
+    font-size: 1.6em;
+    color: @color_red;
+  }
+}
+#inputValue {
+  font-weight: bold;
+}
+#hmt_saveValue {
+  padding: .5vw;
+}
+summary {
+  max-width: 30vw;
+  min-width: 300px;
+}
+#saveValue {
+  background-color: @color_blue;
+  border-color: @color_blue - #212121;
+}
+#expenseType__list_container{
+  max-width: 30vw;
+  min-width: 300px;
+}
+.expenseType__option_text{
+  color:white;
+}
+
+.expenseType__option {
+  background-color: @color_blue_dark;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vmin;
+  list-style: none;
+  margin: .5vmin;
+  text-transform: capitalize;
 }

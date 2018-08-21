@@ -1,9 +1,9 @@
+
 import './app.less';
 import Modules from './src/moduls';
-import Config from './src/db.config';
-import Header from './src/Components/header/header.component';
+import dbConfig from './src/db.config';
 
 const app = Modules;
-console.log(Config, Header, Modules);
-firebase.initializeApp(Config);
+//firebase.initializeApp(dbConfig);
+console.log(app);
 
